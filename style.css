@@ -139,6 +139,75 @@ input[type="radio"].visually-hidden {
     padding: 0;
 }
 
+.footer-contacts {
+    position: relative;
+    padding-left: 40px;
+}
+
+.footer-contacts p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    
+    background-color: #ffffff;
+}
+
+.footer-contacts p::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 15px;
+
+    width: 15px;
+    height: 20px;
+
+    background-image: url(/img/icon-location.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.footer-contacts p::after {
+    content: "";
+
+    position: absolute;
+    top: 25px;
+    left: 15px;
+
+    width: 15px;
+    height: 15px;
+
+    background-image: url(/img/icon-time.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.footer-tel a {
+    position: relative;
+    padding: 15px;
+    margin: 0;
+    padding-left: 40px;
+
+    font-size: 21px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.footer-tel a::before {
+    content: "";
+
+    position: absolute;
+    top: 17px;
+    left: 12px;
+
+    width: 15px;
+    height: 25px;
+
+    background-image: url(/img/icon-smartphone.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
 .footer-support a {
     box-sizing: border-box;
     display: block;
