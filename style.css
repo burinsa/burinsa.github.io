@@ -87,11 +87,31 @@ input[type="radio"].visually-hidden {
 }
 
 .site-navigation a {
+    position: relative;
     display: block;
     padding: 18px;
 
     font-size: 16px;
     color: #00b7f4;
+}
+
+.site-navigation li:first-child {
+    padding-right: 25px;
+}
+
+.services {
+    position: relative;
+}
+
+.services::after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    border: solid #00b7f4;
+    border-width: 0 2px 2px 0;
+    padding: 2px;
+    transform: rotate(45deg);
 }
 
 .user-navigation a {
