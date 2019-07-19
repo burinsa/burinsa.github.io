@@ -393,6 +393,26 @@ input[type="radio"].visually-hidden {
     background-position: -55px -3px;
 }
 
+.catalog {
+    position: relative;
+}
+
+.arrow a {
+    position: fixed;
+    top: 673px;
+    right: 0;
+    width: 51px;
+    height: 51px;
+
+    background-image: url(/img/icon-arrow.png);
+    background-repeat: no-repeat;
+    background-position: 50% 5px;
+
+    opacity: 0.75;
+    border-radius: 50%;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
 .catalog h2 {
     font-size: 30px;
     color: #000000;
@@ -422,12 +442,13 @@ input[type="radio"].visually-hidden {
     background-color: #08552e;
 }
 
-.catalog-item:first-child {
+.catalog-item:first-of-type {
     margin-top: 0;
 }
 
-.catalog-item:last-child {
-    margin-bottom: 50px;
+.catalog-item:last-of-type {
+    margin: 0;
+    padding: 0;
 }
 
 .repair {
@@ -488,7 +509,11 @@ input[type="radio"].visually-hidden {
     z-index: 0;
 }
 
-.catalog-item:nth-child(2)::before {
+.catalog-item:first-child:hover::before {
+    opacity: 0.75;
+}
+
+.catalog-item:nth-of-type(2)::before {
     content: "";
     position: absolute;
     top: 0;
@@ -503,7 +528,11 @@ input[type="radio"].visually-hidden {
     z-index: 0;
 }
 
-.catalog-item:nth-child(3)::before {
+.catalog-item:nth-of-type(2):hover::before {
+    opacity: 0.75;
+}
+
+.catalog-item:nth-of-type(3)::before {
     content: "";
     position: absolute;
     top: 0;
@@ -518,7 +547,11 @@ input[type="radio"].visually-hidden {
     z-index: 0;
 }
 
-.catalog-item:last-child::before {
+.catalog-item:nth-of-type(3):hover::before {
+    opacity: 0.75;
+}
+
+.catalog-item:last-of-type::before {
     content: "";
     position: absolute;
     top: 0;
@@ -528,18 +561,28 @@ input[type="radio"].visually-hidden {
     background-image: url(/img/service-computer.png);
     background-repeat: no-repeat;
     background-position: 0 0;
-    background-size: cover;
+    /* background-size: cover; */
     opacity: 0.4;
     z-index: 0;
 }
 
+.catalog-item:last-of-type:hover::before {
+    opacity: 0.75;
+}
+
 table {
+    display: block;
     margin: 0;
     padding: 0;
     width: 100%;
     border-collapse: collapse;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
 }
+
+/* .catalog-item:nth-child(3):hover + table,
+.catalog-item:nth-child(3):focus + table {
+    display: block;
+} */
 
 table td:first-child {
     width: 550px;
