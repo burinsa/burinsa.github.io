@@ -36,6 +36,39 @@ input[type="radio"].visually-hidden {
     overflow: hidden;
 }
 
+.paralax::before {
+    content: "";
+
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    height: 623px;
+    width: 154px;
+
+    background-image: url(/img/electrical-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+}
+
+.paralax::after {
+    content: "";
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 256px;
+    height: 346px;
+    
+
+    background-image: url(/img/electrical-bg-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+}
+
 .main-header {
     position: relative;
     margin-bottom: 25px;
@@ -96,6 +129,11 @@ input[type="radio"].visually-hidden {
 
     font-size: 16px;
     color: #00b7f4;
+    letter-spacing: 0.05em;
+}
+
+.site-navigation a:hover {
+    color: #0092c2;
 }
 
 .site-navigation li:first-child {
@@ -123,10 +161,12 @@ input[type="radio"].visually-hidden {
     position: relative;
     display: block;
     padding: 20px;
-    padding-left: 61px;
+    padding-left: 40px;
 
     font-size: 14px;
     color: #ffffff;
+    letter-spacing: 0.05em;
+
     background-color: #008bb9;
 }
 
@@ -135,7 +175,7 @@ input[type="radio"].visually-hidden {
 
     position: absolute;
     top: 20px;
-    left: 28px;
+    left: 20px;
 
     width: 14px;
     height: 14px;
@@ -233,16 +273,29 @@ input[type="radio"].visually-hidden {
     background-position: 0 0;
 }
 
+.footer-tel a:hover {
+    color: #00aee8;
+}
+
 .footer-support a {
     box-sizing: border-box;
     display: block;
     font-size: 14px;
+    color: #000000;
     text-align: center;
+
     width: 230px;
     padding: 0;
     margin: 0;
     padding: 15px 40px;
+
+    background-color: #ffffff;
     border: 1px solid #00b7f4;
+}
+
+.footer-support a:hover {
+    color: #ffffff;
+    background-color: #0092c2;
 }
 
 .features {
