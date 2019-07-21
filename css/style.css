@@ -1,4 +1,5 @@
 body {
+    position: relative;
     margin: 0;
     padding: 0;
 
@@ -266,6 +267,8 @@ input[type="radio"].visually-hidden {
 
     font-size: 33px;
     line-height: 44px;
+    letter-spacing: 1px;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 6px 20px;
 
     text-align: center;
 }
@@ -294,6 +297,7 @@ input[type="radio"].visually-hidden {
     padding-left: 10px;
     margin-bottom: 50px;
     text-align: left;
+    text-shadow: rgba(0, 0, 0, 0.3) 0 6px 20px;
 }
 
 .feature-item:first-child::before {
@@ -342,6 +346,7 @@ input[type="radio"].visually-hidden {
     padding: 0;
     margin: 0;
     margin-left: 90px;
+    
 }
 
 .social-wrapper {
@@ -393,6 +398,10 @@ input[type="radio"].visually-hidden {
     background-position: -55px -3px;
 }
 
+.social-button a:hover {
+    opacity: 1;
+}
+
 .catalog {
     position: relative;
 }
@@ -410,13 +419,18 @@ input[type="radio"].visually-hidden {
 
     opacity: 0.75;
     border-radius: 50%;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.arrow a:hover {
+    opacity: 1;
 }
 
 .catalog h2 {
     font-size: 30px;
     color: #000000;
     text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.1) 0 6px 20px;
 
     margin: 0;
     margin-bottom: 30px;
@@ -447,8 +461,7 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item:last-of-type {
-    margin: 0;
-    padding: 0;
+    margin-bottom: 60px;
 }
 
 .repair {
@@ -513,6 +526,13 @@ input[type="radio"].visually-hidden {
     opacity: 0.75;
 }
 
+.catalog-item:first-child:hover > .duration::after{
+    border: solid #159052;
+    border-width: 0 3px 3px 0;
+    padding: 4px;
+    transform: rotate(45deg);
+}
+
 .catalog-item:nth-of-type(2)::before {
     content: "";
     position: absolute;
@@ -530,6 +550,13 @@ input[type="radio"].visually-hidden {
 
 .catalog-item:nth-of-type(2):hover::before {
     opacity: 0.75;
+}
+
+.catalog-item:nth-of-type(2):hover > .duration::after {
+    border: solid #159052;
+    border-width: 0 3px 3px 0;
+    padding: 4px;
+    transform: rotate(45deg);
 }
 
 .catalog-item:nth-of-type(3)::before {
@@ -551,6 +578,13 @@ input[type="radio"].visually-hidden {
     opacity: 0.75;
 }
 
+.catalog-item:nth-of-type(3):hover > .duration::after {
+    border: solid #159052;
+    border-width: 0 3px 3px 0;
+    padding: 4px;
+    transform: rotate(45deg);
+}
+
 .catalog-item:last-of-type::before {
     content: "";
     position: absolute;
@@ -561,7 +595,6 @@ input[type="radio"].visually-hidden {
     background-image: url(/img/service-computer.png);
     background-repeat: no-repeat;
     background-position: 0 0;
-    /* background-size: cover; */
     opacity: 0.4;
     z-index: 0;
 }
@@ -570,8 +603,15 @@ input[type="radio"].visually-hidden {
     opacity: 0.75;
 }
 
-table {
-    display: block;
+.catalog-item:last-of-type:hover > .duration::after {
+    border: solid #159052;
+    border-width: 0 3px 3px 0;
+    padding: 4px;
+    transform: rotate(45deg);
+}
+
+.table {
+    display: none;
     margin: 0;
     padding: 0;
     width: 100%;
