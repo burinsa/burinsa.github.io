@@ -652,6 +652,7 @@ input[type="radio"].visually-hidden {
     z-index: 0;
 }
 
+.catalog-item:first-child:hover::before,
 .catalog-item:last-of-type:hover::before {
     opacity: 0.75;
 }
