@@ -1,4 +1,15 @@
 var toTop = document.querySelector(".arrow");
+var servicePhone = document.querySelector(".phone");
+var tablePhone = document.querySelector(".table-phone");
+var servicePad = document.querySelector(".pad");
+var tablePad = document.querySelector(".table-pad");
+var serviceLaptop = document.querySelector(".laptop");
+var tableLaptop = document.querySelector(".table-laptop");
+var serviceComputer = document.querySelector(".computer");
+var tableComputer = document.querySelector(".table-computer");
+
+
+
 
 window.onscroll = function() {
     if (window.pageYOffset > 250) {
@@ -11,3 +22,23 @@ window.onscroll = function() {
 toTop.onclick = function() {
     window.scrollTo(0, 0);
 }
+
+servicePhone.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    tablePhone.classList.toggle("table-show");
+});
+
+servicePad.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    tablePad.classList.toggle("table-show");
+});
+
+serviceLaptop.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    tableLaptop.classList.toggle("table-show");
+});
+
+serviceComputer.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    tableComputer.classList.toggle("table-show");
+});

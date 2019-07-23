@@ -167,7 +167,11 @@ input[type="radio"].visually-hidden {
     color: #ffffff;
     letter-spacing: 0.05em;
 
-    background-color: #008bb9;
+    background-color: #00b5f1;
+}
+
+.user-navigation a:hover {
+    background-color: #0090c0;
 }
 
 .user-navigation a::before {
@@ -459,6 +463,10 @@ input[type="radio"].visually-hidden {
     position: relative;
 }
 
+.arrow {
+    opacity: 0;
+}
+
 .arrow a {
     position: fixed;
     top: 673px;
@@ -575,17 +583,6 @@ input[type="radio"].visually-hidden {
     z-index: 0;
 }
 
-.catalog-item:first-child:hover::before {
-    opacity: 0.75;
-}
-
-.catalog-item:first-child:hover > .duration::after{
-    border: solid #159052;
-    border-width: 0 3px 3px 0;
-    padding: 4px;
-    transform: rotate(45deg);
-}
-
 .catalog-item:nth-of-type(2)::before {
     content: "";
     position: absolute;
@@ -599,17 +596,6 @@ input[type="radio"].visually-hidden {
     background-size: cover;
     opacity: 0.4;
     z-index: 0;
-}
-
-.catalog-item:nth-of-type(2):hover::before {
-    opacity: 0.75;
-}
-
-.catalog-item:nth-of-type(2):hover > .duration::after {
-    border: solid #159052;
-    border-width: 0 3px 3px 0;
-    padding: 4px;
-    transform: rotate(45deg);
 }
 
 .catalog-item:nth-of-type(3)::before {
@@ -627,17 +613,6 @@ input[type="radio"].visually-hidden {
     z-index: 0;
 }
 
-.catalog-item:nth-of-type(3):hover::before {
-    opacity: 0.75;
-}
-
-.catalog-item:nth-of-type(3):hover > .duration::after {
-    border: solid #159052;
-    border-width: 0 3px 3px 0;
-    padding: 4px;
-    transform: rotate(45deg);
-}
-
 .catalog-item:last-of-type::before {
     content: "";
     position: absolute;
@@ -653,10 +628,16 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item:first-child:hover::before,
+.catalog-item:nth-of-type(2):hover::before,
+.catalog-item:nth-of-type(3):hover::before,
 .catalog-item:last-of-type:hover::before {
     opacity: 0.75;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
+.catalog-item:first-child:hover > .duration::after,
+.catalog-item:nth-of-type(2):hover > .duration::after,
+.catalog-item:nth-of-type(3):hover > .duration::after,
 .catalog-item:last-of-type:hover > .duration::after {
     border: solid #159052;
     border-width: 0 3px 3px 0;
@@ -711,6 +692,11 @@ table tr:nth-child(2n) {
 table tr:hover {
     background-color: #ffffff;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.table-show {
+    display: block;
+    
 }
 
 
