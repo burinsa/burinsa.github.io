@@ -568,77 +568,48 @@ input[type="radio"].visually-hidden {
     transform: rotate(45deg);
 }
 
-.catalog-item:first-child::before {
+.duration.rotate::after {
+    transform: rotate(-135deg);
+}
+
+.catalog-item::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(/img/service-phone.png);
     background-repeat: no-repeat;
     background-position: 0 0;
-    background-size: cover;
     opacity: 0.4;
     z-index: 0;
 }
 
-.catalog-item:nth-of-type(2)::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url(/img/service-pad.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
+.catalog-item:first-child::before {
+    background-image: url(/img/service-phone.png);
     background-size: cover;
-    opacity: 0.4;
-    z-index: 0;
+   }
+
+.catalog-item:nth-of-type(2)::before {
+    background-image: url(/img/service-pad.png);
+    background-size: cover;
 }
 
 .catalog-item:nth-of-type(3)::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     background-image: url(/img/service-laptop.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
     background-size: cover;
-    opacity: 0.4;
-    z-index: 0;
 }
 
 .catalog-item:last-of-type::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     background-image: url(/img/service-computer.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    opacity: 0.4;
-    z-index: 0;
 }
 
-.catalog-item:first-child:hover::before,
-.catalog-item:nth-of-type(2):hover::before,
-.catalog-item:nth-of-type(3):hover::before,
-.catalog-item:last-of-type:hover::before {
+.catalog-item:hover::before {
     opacity: 0.75;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-.catalog-item:first-child:hover > .duration::after,
-.catalog-item:nth-of-type(2):hover > .duration::after,
-.catalog-item:nth-of-type(3):hover > .duration::after,
-.catalog-item:last-of-type:hover > .duration::after {
+.catalog-item:hover > .duration::after {
     border: solid #159052;
     border-width: 0 3px 3px 0;
     padding: 4px;
@@ -652,12 +623,8 @@ input[type="radio"].visually-hidden {
     width: 100%;
     border-collapse: collapse;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transition: 4s;
 }
-
-/* .catalog-item:nth-child(3):hover + table,
-.catalog-item:nth-child(3):focus + table {
-    display: block;
-} */
 
 table td:first-child {
     width: 550px;
@@ -673,7 +640,6 @@ td {
     margin: 0;
     padding: 10px 0;
     padding-left: 30px;
-
 }
 
 table td:nth-child(2),
@@ -696,7 +662,7 @@ table tr:hover {
 
 .table-show {
     display: block;
-    
+    transition: 0.4s;
 }
 
 
