@@ -21,7 +21,10 @@ window.onscroll = function() {
 }
 
 toTop.onclick = function() {
-    window.scrollTo(0, 0);
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 };
 
 servicePhone.addEventListener("click", function (evt) {

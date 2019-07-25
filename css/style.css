@@ -665,6 +665,10 @@ table tr:hover {
     transition: 0.4s;
 }
 
+.table-computer {
+    margin-top: -60px;
+    margin-bottom: 60px;
+}
 
 
 
