@@ -496,7 +496,7 @@ input[type="radio"].visually-hidden {
     margin: 0;
     margin-bottom: 30px;
 
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .catalog-list {
@@ -504,6 +504,14 @@ input[type="radio"].visually-hidden {
     padding: 0;
 
     list-style: none;
+    transition: 0.4s;
+}
+
+.catalog-list li {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    transition: 0.4s;
 }
 
 .catalog-item {
@@ -515,13 +523,14 @@ input[type="radio"].visually-hidden {
     margin-top: 5px;
     color: #ffffff;
     background-color: #08552e;
+    transition: 0.4s;
 }
 
 .catalog-item:first-of-type {
     margin-top: 0;
 }
 
-.catalog-item:last-of-type {
+.catalog-item.computer {
     margin-bottom: 60px;
 }
 
@@ -566,6 +575,7 @@ input[type="radio"].visually-hidden {
     border-width: 0 3px 3px 0;
     padding: 4px;
     transform: rotate(45deg);
+    transition: 0.4s;
 }
 
 .duration.rotate::after {
@@ -585,22 +595,22 @@ input[type="radio"].visually-hidden {
     z-index: 0;
 }
 
-.catalog-item:first-child::before {
+.catalog-item.phone::before {
     background-image: url(/img/service-phone.png);
     background-size: cover;
    }
 
-.catalog-item:nth-of-type(2)::before {
+.catalog-item.pad::before {
     background-image: url(/img/service-pad.png);
     background-size: cover;
 }
 
-.catalog-item:nth-of-type(3)::before {
+.catalog-item.laptop::before {
     background-image: url(/img/service-laptop.png);
     background-size: cover;
 }
 
-.catalog-item:last-of-type::before {
+.catalog-item.computer::before {
     background-image: url(/img/service-computer.png);
 }
 
@@ -616,14 +626,23 @@ input[type="radio"].visually-hidden {
     transform: rotate(45deg);
 }
 
+.catalog-item:hover > .duration.rotate::after {
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    padding: 4px;
+    transform: rotate(-135deg);
+}
+
 .table {
     display: none;
     margin: 0;
     padding: 0;
     width: 100%;
     border-collapse: collapse;
+
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-    transition: 4s;
+    transition: .4s ease-out;
+    transition-delay: 0.5s;
 }
 
 table td:first-child {
@@ -636,7 +655,6 @@ td {
     line-height: 30px;
     text-align: left;
     color: #000000;
-
     margin: 0;
     padding: 10px 0;
     padding-left: 30px;
@@ -662,7 +680,8 @@ table tr:hover {
 
 .table-show {
     display: block;
-    transition: 0.4s;
+    transition: .4s ease-out;
+    transition-delay: 0.5s;
 }
 
 .table-computer {
