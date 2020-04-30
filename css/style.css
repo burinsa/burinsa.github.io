@@ -1406,7 +1406,7 @@ input[type="radio"].visually-hidden {
     color: #ffffff;
 
     background-color: #000000;
-    background-image: url(img/bg.jpg);
+    background-image: url(/img/bg.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -1973,7 +1973,7 @@ table a:hover {
         width: 15px;
         height: 20px;
     
-        background-image: url(img/icon-location.png);
+        background-image: url(/img/icon-location.png);
         background-repeat: no-repeat;
         background-position: 0 0;
         -webkit-transform: scale(0.8);
