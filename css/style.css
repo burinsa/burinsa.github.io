@@ -1105,7 +1105,7 @@ input[type="radio"].visually-hidden {
     height: 623px;
     width: 154px;
 
-    background-image: url(img/electrical-bg.png);
+    background-image: url(/img/electrical-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-filter: blur(5px);
@@ -1123,7 +1123,7 @@ input[type="radio"].visually-hidden {
     height: 346px;
     
 
-    background-image: url(img/electrical-bg-2.png);
+    background-image: url(/img/electrical-bg-2.png);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-filter: blur(5px);
@@ -1264,7 +1264,7 @@ input[type="radio"].visually-hidden {
     width: 14px;
     height: 14px;
 
-    background-image: url(img/icon-pen.png);
+    background-image: url(/img/icon-pen.png);
 }
 
 .desktop {
@@ -1325,7 +1325,7 @@ input[type="radio"].visually-hidden {
     width: 15px;
     height: 20px;
 
-    background-image: url(img/icon-location.png);
+    background-image: url(/img/icon-location.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -1340,7 +1340,7 @@ input[type="radio"].visually-hidden {
     width: 15px;
     height: 15px;
 
-    background-image: url(img/icon-time.png);
+    background-image: url(/img/icon-time.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -1366,7 +1366,7 @@ input[type="radio"].visually-hidden {
     width: 15px;
     height: 25px;
 
-    background-image: url(img/icon-smartphone.png);
+    background-image: url(/img/icon-smartphone.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -1464,7 +1464,7 @@ input[type="radio"].visually-hidden {
     width: 50px;
     height: 50px;
 
-    background-image: url(img/icon-gear.png);
+    background-image: url(/img/icon-gear.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -1478,7 +1478,7 @@ input[type="radio"].visually-hidden {
     width: 50px;
     height: 50px;
 
-    background-image: url(img/icon-phone.png);
+    background-image: url(/img/icon-phone.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -1492,7 +1492,7 @@ input[type="radio"].visually-hidden {
     width: 50px;
     height: 50px;
 
-    background-image: url(img/icon-marketing.png);
+    background-image: url(/img/icon-marketing.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -1540,7 +1540,7 @@ input[type="radio"].visually-hidden {
     width: 44px;
     height: 44px;
 
-    background-image: url(img/social.png);
+    background-image: url(/img/social.png);
     background-repeat: no-repeat;
     border-radius: 50%;
     -webkit-box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
@@ -1588,7 +1588,7 @@ input[type="radio"].visually-hidden {
     width: 51px;
     height: 51px;
     background-color: #ffffff;
-    background-image: url(img/icon-arrow.png);
+    background-image: url(/img/icon-arrow.png);
     background-repeat: no-repeat;
     background-position: 50% 5px;
 
@@ -1726,22 +1726,22 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item.phone::before {
-    background-image: url(img/service-phone.png);
+    background-image: url(/img/service-phone.png);
     background-size: cover;
    }
 
 .catalog-item.pad::before {
-    background-image: url(img/service-pad.png);
+    background-image: url(/img/service-pad.png);
     background-size: cover;
 }
 
 .catalog-item.laptop::before {
-    background-image: url(img/service-laptop.png);
+    background-image: url(/img/service-laptop.png);
     background-size: cover;
 }
 
 .catalog-item.computer::before {
-    background-image: url(img/service-computer1.png);
+    background-image: url(/img/service-computer1.png);
     background-size: cover;
 }
 
