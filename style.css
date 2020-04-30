@@ -136,7 +136,7 @@ input[type="radio"].visually-hidden {
     width: 14px;
     height: 14px;
 
-    background-image: url(/img/icon-pen.png);
+    background-image: url(img/icon-pen.png);
 }
 
 .main-footer {
@@ -183,7 +183,7 @@ input[type="radio"].visually-hidden {
     width: 15px;
     height: 20px;
 
-    background-image: url(/img/icon-location.png);
+    background-image: url(img/icon-location.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -198,7 +198,7 @@ input[type="radio"].visually-hidden {
     width: 15px;
     height: 15px;
 
-    background-image: url(/img/icon-time.png);
+    background-image: url(img/icon-time.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -224,7 +224,7 @@ input[type="radio"].visually-hidden {
     width: 15px;
     height: 25px;
 
-    background-image: url(/img/icon-smartphone.png);
+    background-image: url(img/icon-smartphone.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -248,7 +248,7 @@ input[type="radio"].visually-hidden {
     color: #ffffff;
 
     background-color: #000000;
-    background-image: url(/img/bg.jpg);
+    background-image: url(img/bg.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -300,7 +300,7 @@ input[type="radio"].visually-hidden {
     width: 50px;
     height: 50px;
 
-    background-image: url(/img/icon-gear.png);
+    background-image: url(img/icon-gear.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -314,7 +314,7 @@ input[type="radio"].visually-hidden {
     width: 50px;
     height: 50px;
 
-    background-image: url(/img/icon-phone.png);
+    background-image: url(img/icon-phone.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -328,7 +328,7 @@ input[type="radio"].visually-hidden {
     width: 50px;
     height: 50px;
 
-    background-image: url(/img/icon-marketing.png);
+    background-image: url(img/icon-marketing.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -364,7 +364,7 @@ input[type="radio"].visually-hidden {
     width: 44px;
     height: 44px;
 
-    background-image: url(/img/social.png);
+    background-image: url(img/social.png);
     background-repeat: no-repeat;
     border-radius: 50%;
     opacity: 0.85;
