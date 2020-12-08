@@ -52,7 +52,7 @@ input[type="radio"].visually-hidden {
 <<<<<<< HEAD
     background-image: url(../img/electrical-bg.png);
 =======
-    background-image: url(img/electrical-bg.png);
+    background-image: url(../img/electrical-bg.png);
 >>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-repeat: no-repeat;
     background-size: cover;
