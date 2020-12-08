@@ -49,7 +49,11 @@ input[type="radio"].visually-hidden {
     height: 623px;
     width: 154px;
 
+<<<<<<< HEAD
     background-image: url(../img/electrical-bg.png);
+=======
+    background-image: url(img/electrical-bg.png);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-filter: blur(5px);
@@ -67,7 +71,11 @@ input[type="radio"].visually-hidden {
     height: 346px;
     
 
+<<<<<<< HEAD
     background-image: url(../img/electrical-bg-2.png);
+=======
+    background-image: url(img/electrical-bg-2.png);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-filter: blur(5px);
@@ -208,7 +216,11 @@ input[type="radio"].visually-hidden {
     width: 14px;
     height: 14px;
 
+<<<<<<< HEAD
     background-image: url(../img/icon-pen.png);
+=======
+    background-image: url(img/icon-pen.png);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
 }
 
 .desktop {
@@ -269,7 +281,11 @@ input[type="radio"].visually-hidden {
     width: 15px;
     height: 20px;
 
+<<<<<<< HEAD
     background-image: url(../img/icon-location.png);
+=======
+    background-image: url(img/icon-location.png);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -284,7 +300,11 @@ input[type="radio"].visually-hidden {
     width: 15px;
     height: 15px;
 
+<<<<<<< HEAD
     background-image: url(../img/icon-time.png);
+=======
+    background-image: url(img/icon-time.png);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -310,7 +330,11 @@ input[type="radio"].visually-hidden {
     width: 15px;
     height: 25px;
 
+<<<<<<< HEAD
     background-image: url(../img/icon-smartphone.png);
+=======
+    background-image: url(img/icon-smartphone.png);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -350,7 +374,11 @@ input[type="radio"].visually-hidden {
     color: #ffffff;
 
     background-color: #000000;
+<<<<<<< HEAD
     background-image: url(../img/bg.jpg);
+=======
+    background-image: url(img/bg.jpg);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -408,7 +436,11 @@ input[type="radio"].visually-hidden {
     width: 50px;
     height: 50px;
 
+<<<<<<< HEAD
     background-image: url(../img/icon-gear.png);
+=======
+    background-image: url(img/icon-gear.png);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -422,7 +454,11 @@ input[type="radio"].visually-hidden {
     width: 50px;
     height: 50px;
 
+<<<<<<< HEAD
     background-image: url(../img/icon-phone.png);
+=======
+    background-image: url(img/icon-phone.png);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -436,7 +472,11 @@ input[type="radio"].visually-hidden {
     width: 50px;
     height: 50px;
 
+<<<<<<< HEAD
     background-image: url(../img/icon-marketing.png);
+=======
+    background-image: url(img/icon-marketing.png);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -484,7 +524,11 @@ input[type="radio"].visually-hidden {
     width: 44px;
     height: 44px;
 
+<<<<<<< HEAD
     background-image: url(../img/social.png);
+=======
+    background-image: url(img/social.png);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-repeat: no-repeat;
     border-radius: 50%;
     -webkit-box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
@@ -532,7 +576,11 @@ input[type="radio"].visually-hidden {
     width: 51px;
     height: 51px;
     background-color: #ffffff;
+<<<<<<< HEAD
     background-image: url(../img/icon-arrow.png);
+=======
+    background-image: url(img/icon-arrow.png);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-repeat: no-repeat;
     background-position: 50% 5px;
 
@@ -670,22 +718,38 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item.phone::before {
+<<<<<<< HEAD
     background-image: url(../img/service-phone.png);
+=======
+    background-image: url(img/service-phone.png);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-size: cover;
    }
 
 .catalog-item.pad::before {
+<<<<<<< HEAD
     background-image: url(../img/service-pad.png);
+=======
+    background-image: url(img/service-pad.png);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-size: cover;
 }
 
 .catalog-item.laptop::before {
+<<<<<<< HEAD
     background-image: url(../img/service-laptop.png);
+=======
+    background-image: url(img/service-laptop.png);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-size: cover;
 }
 
 .catalog-item.computer::before {
+<<<<<<< HEAD
     background-image: url(../img/service-computer1.png);
+=======
+    background-image: url(img/service-computer1.png);
+>>>>>>> 19da3fd18795d9dd2b3a507c992aae5339da115a
     background-size: cover;
 }
 
